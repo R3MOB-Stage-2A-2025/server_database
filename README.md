@@ -60,7 +60,7 @@ docker exec -i mysql-r3mob mysql -uroot -pCHANGEME r3mob_dev < /path/to/database
 
 ### Via Adminer
 
-Go to ``http://localhost:3320``. (pour le port, il faut utiliser ce qu'il y a dans le .env (ADMINER_PORT))
+Go to ``http://localhost:3320``. The port is precised in the `.env` file.
 
 ### Via command line
 
